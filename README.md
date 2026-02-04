@@ -39,10 +39,6 @@ This lab is designed to simulate a small enterprise network using:
 - Security alert creation
 - Incident investigation workflows
 
-## Network Diagram
-
-(Insert diagram here)
-
 ## Future Improvements
 
 - Add dedicated log collector
