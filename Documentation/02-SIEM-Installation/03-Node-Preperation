@@ -1,0 +1,34 @@
+# Node Preparation
+
+## Initial Setup Steps
+
+On both nodes:
+
+1. Install Ubuntu Server
+2. Configure static IP addresses
+3. Verify network connectivity
+4. Enable SSH access
+
+---
+
+## Verify IP Configuration
+
+Run on each node:
+
+ip a
+
+Confirm:
+
+- wazuh-collector = 192.168.1.221  
+- wazuh-siem = 192.168.1.222  
+
+---
+
+## Test Connectivity
+
+From each node:
+
+ping 192.168.1.221
+ping 192.168.1.222
+
+Both nodes must respond successfully before continuing.
