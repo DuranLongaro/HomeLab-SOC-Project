@@ -39,9 +39,4 @@ This lab is designed to simulate a small enterprise network using:
 - Security alert creation
 - Incident investigation workflows
 
-## Future Improvements
 
-- Add dedicated log collector
-- Add pfSense firewall
-- Add IDS/IPS
-- Automate deployment with scripts
